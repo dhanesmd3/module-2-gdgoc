@@ -1,12 +1,12 @@
 import type { Project } from '../types/project'
 
-export const projects: Project[] = [
+export const initialProjects: Project[] = [
   {
     id: 1,
     title: 'Portfolio Website',
     description:
-      'This very site — started as a static HTML/CSS landing page, now a React + TypeScript app with client-side routing.',
-    techStack: ['React', 'TypeScript', 'Vite'],
+      'This very site — started as a static HTML/CSS landing page, now a React + TypeScript app styled with Tailwind and backed by a Zustand store.',
+    techStack: ['React', 'TypeScript', 'Vite', 'Tailwind', 'Zustand'],
     githubUrl: 'https://github.com/dhanesmd3/portfolio',
   },
   {
